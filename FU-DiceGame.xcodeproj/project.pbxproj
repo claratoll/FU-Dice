@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB2BC4529DB2F4700FA84DD /* FU_DiceGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2BC4429DB2F4700FA84DD /* FU_DiceGameApp.swift */; };
+		1DB2BC4729DB2F4700FA84DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2BC4629DB2F4700FA84DD /* ContentView.swift */; };
+		1DB2BC4929DB2F4900FA84DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2BC4829DB2F4900FA84DD /* Assets.xcassets */; };
+		1DB2BC4C29DB2F4900FA84DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2BC4B29DB2F4900FA84DD /* Preview Assets.xcassets */; };
+		1DB2BC5629DB2F4900FA84DD /* FU_DiceGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2BC5529DB2F4900FA84DD /* FU_DiceGameTests.swift */; };
+		1DB2BC6029DB2F4900FA84DD /* FU_DiceGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2BC5F29DB2F4900FA84DD /* FU_DiceGameUITests.swift */; };
+		1DB2BC6229DB2F4900FA84DD /* FU_DiceGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2BC6129DB2F4900FA84DD /* FU_DiceGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DB2BC5229DB2F4900FA84DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DB2BC3929DB2F4700FA84DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB2BC4029DB2F4700FA84DD;
+			remoteInfo = "FU-DiceGame";
+		};
+		1DB2BC5C29DB2F4900FA84DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DB2BC3929DB2F4700FA84DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DB2BC4029DB2F4700FA84DD;
+			remoteInfo = "FU-DiceGame";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DB2BC4129DB2F4700FA84DD /* FU-DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FU-DiceGame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB2BC4429DB2F4700FA84DD /* FU_DiceGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FU_DiceGameApp.swift; sourceTree = "<group>"; };
+		1DB2BC4629DB2F4700FA84DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DB2BC4829DB2F4900FA84DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DB2BC4B29DB2F4900FA84DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DB2BC5129DB2F4900FA84DD /* FU-DiceGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FU-DiceGameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB2BC5529DB2F4900FA84DD /* FU_DiceGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FU_DiceGameTests.swift; sourceTree = "<group>"; };
+		1DB2BC5B29DB2F4900FA84DD /* FU-DiceGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FU-DiceGameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB2BC5F29DB2F4900FA84DD /* FU_DiceGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FU_DiceGameUITests.swift; sourceTree = "<group>"; };
+		1DB2BC6129DB2F4900FA84DD /* FU_DiceGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FU_DiceGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB2BC3E29DB2F4700FA84DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB2BC4E29DB2F4900FA84DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB2BC5829DB2F4900FA84DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB2BC3829DB2F4700FA84DD = {
+			isa = PBXGroup;
+			children = (
+				1DB2BC4329DB2F4700FA84DD /* FU-DiceGame */,
+				1DB2BC5429DB2F4900FA84DD /* FU-DiceGameTests */,
+				1DB2BC5E29DB2F4900FA84DD /* FU-DiceGameUITests */,
+				1DB2BC4229DB2F4700FA84DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DB2BC4229DB2F4700FA84DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2BC4129DB2F4700FA84DD /* FU-DiceGame.app */,
+				1DB2BC5129DB2F4900FA84DD /* FU-DiceGameTests.xctest */,
+				1DB2BC5B29DB2F4900FA84DD /* FU-DiceGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DB2BC4329DB2F4700FA84DD /* FU-DiceGame */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2BC4429DB2F4700FA84DD /* FU_DiceGameApp.swift */,
+				1DB2BC4629DB2F4700FA84DD /* ContentView.swift */,
+				1DB2BC4829DB2F4900FA84DD /* Assets.xcassets */,
+				1DB2BC4A29DB2F4900FA84DD /* Preview Content */,
+			);
+			path = "FU-DiceGame";
+			sourceTree = "<group>";
+		};
+		1DB2BC4A29DB2F4900FA84DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2BC4B29DB2F4900FA84DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DB2BC5429DB2F4900FA84DD /* FU-DiceGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2BC5529DB2F4900FA84DD /* FU_DiceGameTests.swift */,
+			);
+			path = "FU-DiceGameTests";
+			sourceTree = "<group>";
+		};
+		1DB2BC5E29DB2F4900FA84DD /* FU-DiceGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2BC5F29DB2F4900FA84DD /* FU_DiceGameUITests.swift */,
+				1DB2BC6129DB2F4900FA84DD /* FU_DiceGameUITestsLaunchTests.swift */,
+			);
+			path = "FU-DiceGameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DB2BC4029DB2F4700FA84DD /* FU-DiceGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB2BC6529DB2F4900FA84DD /* Build configuration list for PBXNativeTarget "FU-DiceGame" */;
+			buildPhases = (
+				1DB2BC3D29DB2F4700FA84DD /* Sources */,
+				1DB2BC3E29DB2F4700FA84DD /* Frameworks */,
+				1DB2BC3F29DB2F4700FA84DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FU-DiceGame";
+			productName = "FU-DiceGame";
+			productReference = 1DB2BC4129DB2F4700FA84DD /* FU-DiceGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DB2BC5029DB2F4900FA84DD /* FU-DiceGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB2BC6829DB2F4900FA84DD /* Build configuration list for PBXNativeTarget "FU-DiceGameTests" */;
+			buildPhases = (
+				1DB2BC4D29DB2F4900FA84DD /* Sources */,
+				1DB2BC4E29DB2F4900FA84DD /* Frameworks */,
+				1DB2BC4F29DB2F4900FA84DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DB2BC5329DB2F4900FA84DD /* PBXTargetDependency */,
+			);
+			name = "FU-DiceGameTests";
+			productName = "FU-DiceGameTests";
+			productReference = 1DB2BC5129DB2F4900FA84DD /* FU-DiceGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DB2BC5A29DB2F4900FA84DD /* FU-DiceGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB2BC6B29DB2F4900FA84DD /* Build configuration list for PBXNativeTarget "FU-DiceGameUITests" */;
+			buildPhases = (
+				1DB2BC5729DB2F4900FA84DD /* Sources */,
+				1DB2BC5829DB2F4900FA84DD /* Frameworks */,
+				1DB2BC5929DB2F4900FA84DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DB2BC5D29DB2F4900FA84DD /* PBXTargetDependency */,
+			);
+			name = "FU-DiceGameUITests";
+			productName = "FU-DiceGameUITests";
+			productReference = 1DB2BC5B29DB2F4900FA84DD /* FU-DiceGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DB2BC3929DB2F4700FA84DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1DB2BC4029DB2F4700FA84DD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1DB2BC5029DB2F4900FA84DD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1DB2BC4029DB2F4700FA84DD;
+					};
+					1DB2BC5A29DB2F4900FA84DD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1DB2BC4029DB2F4700FA84DD;
+					};
+				};
+			};
+			buildConfigurationList = 1DB2BC3C29DB2F4700FA84DD /* Build configuration list for PBXProject "FU-DiceGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DB2BC3829DB2F4700FA84DD;
+			productRefGroup = 1DB2BC4229DB2F4700FA84DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DB2BC4029DB2F4700FA84DD /* FU-DiceGame */,
+				1DB2BC5029DB2F4900FA84DD /* FU-DiceGameTests */,
+				1DB2BC5A29DB2F4900FA84DD /* FU-DiceGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DB2BC3F29DB2F4700FA84DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB2BC4C29DB2F4900FA84DD /* Preview Assets.xcassets in Resources */,
+				1DB2BC4929DB2F4900FA84DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB2BC4F29DB2F4900FA84DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB2BC5929DB2F4900FA84DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB2BC3D29DB2F4700FA84DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB2BC4729DB2F4700FA84DD /* ContentView.swift in Sources */,
+				1DB2BC4529DB2F4700FA84DD /* FU_DiceGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB2BC4D29DB2F4900FA84DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB2BC5629DB2F4900FA84DD /* FU_DiceGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB2BC5729DB2F4900FA84DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB2BC6229DB2F4900FA84DD /* FU_DiceGameUITestsLaunchTests.swift in Sources */,
+				1DB2BC6029DB2F4900FA84DD /* FU_DiceGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DB2BC5329DB2F4900FA84DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB2BC4029DB2F4700FA84DD /* FU-DiceGame */;
+			targetProxy = 1DB2BC5229DB2F4900FA84DD /* PBXContainerItemProxy */;
+		};
+		1DB2BC5D29DB2F4900FA84DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DB2BC4029DB2F4700FA84DD /* FU-DiceGame */;
+			targetProxy = 1DB2BC5C29DB2F4900FA84DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DB2BC6329DB2F4900FA84DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DB2BC6429DB2F4900FA84DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DB2BC6629DB2F4900FA84DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FU-DiceGame/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.FU-DiceGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DB2BC6729DB2F4900FA84DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FU-DiceGame/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.FU-DiceGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DB2BC6929DB2F4900FA84DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.FU-DiceGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FU-DiceGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FU-DiceGame";
+			};
+			name = Debug;
+		};
+		1DB2BC6A29DB2F4900FA84DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.FU-DiceGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FU-DiceGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FU-DiceGame";
+			};
+			name = Release;
+		};
+		1DB2BC6C29DB2F4900FA84DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.FU-DiceGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FU-DiceGame";
+			};
+			name = Debug;
+		};
+		1DB2BC6D29DB2F4900FA84DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.FU-DiceGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FU-DiceGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DB2BC3C29DB2F4700FA84DD /* Build configuration list for PBXProject "FU-DiceGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB2BC6329DB2F4900FA84DD /* Debug */,
+				1DB2BC6429DB2F4900FA84DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB2BC6529DB2F4900FA84DD /* Build configuration list for PBXNativeTarget "FU-DiceGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB2BC6629DB2F4900FA84DD /* Debug */,
+				1DB2BC6729DB2F4900FA84DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB2BC6829DB2F4900FA84DD /* Build configuration list for PBXNativeTarget "FU-DiceGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB2BC6929DB2F4900FA84DD /* Debug */,
+				1DB2BC6A29DB2F4900FA84DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB2BC6B29DB2F4900FA84DD /* Build configuration list for PBXNativeTarget "FU-DiceGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB2BC6C29DB2F4900FA84DD /* Debug */,
+				1DB2BC6D29DB2F4900FA84DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DB2BC3929DB2F4700FA84DD /* Project object */;
+}
