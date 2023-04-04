@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D8C5AF629DC4FD00040F129 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8C5AF529DC4FD00040F129 /* Dice.swift */; };
+		1D8C5AF829DC51610040F129 /* WinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8C5AF729DC51610040F129 /* WinnerView.swift */; };
 		1DB2BC4529DB2F4700FA84DD /* FU_DiceGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2BC4429DB2F4700FA84DD /* FU_DiceGameApp.swift */; };
 		1DB2BC4729DB2F4700FA84DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2BC4629DB2F4700FA84DD /* ContentView.swift */; };
 		1DB2BC4929DB2F4900FA84DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2BC4829DB2F4900FA84DD /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D8C5AF529DC4FD00040F129 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		1D8C5AF729DC51610040F129 /* WinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerView.swift; sourceTree = "<group>"; };
 		1DB2BC4129DB2F4700FA84DD /* FU-DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FU-DiceGame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB2BC4429DB2F4700FA84DD /* FU_DiceGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FU_DiceGameApp.swift; sourceTree = "<group>"; };
 		1DB2BC4629DB2F4700FA84DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			children = (
 				1DB2BC4429DB2F4700FA84DD /* FU_DiceGameApp.swift */,
 				1DB2BC4629DB2F4700FA84DD /* ContentView.swift */,
+				1D8C5AF529DC4FD00040F129 /* Dice.swift */,
+				1D8C5AF729DC51610040F129 /* WinnerView.swift */,
 				1DB2BC4829DB2F4900FA84DD /* Assets.xcassets */,
 				1DB2BC4A29DB2F4900FA84DD /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DB2BC4729DB2F4700FA84DD /* ContentView.swift in Sources */,
+				1D8C5AF829DC51610040F129 /* WinnerView.swift in Sources */,
+				1D8C5AF629DC4FD00040F129 /* Dice.swift in Sources */,
 				1DB2BC4529DB2F4700FA84DD /* FU_DiceGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
